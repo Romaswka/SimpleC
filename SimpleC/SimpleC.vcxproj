@@ -135,7 +135,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Main.c" />
+    <ClCompile Include="Test.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataTypes.h" />
