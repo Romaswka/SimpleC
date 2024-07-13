@@ -216,7 +216,7 @@ inline Size FloatToCString(Float64 value, CString buffer, Size accuracy)
 	return resultSize;
 }
 
-inline CString findÑoincidence(CString buffer, Size bufferSize, CString find, Size findSize)
+inline CString findCoincidence(CString buffer, Size bufferSize, CString find, Size findSize)
 {
 	Index j;
 
