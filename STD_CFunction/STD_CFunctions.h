@@ -19,7 +19,7 @@ extern inline Void swapBytes(Byte buffer[], Index bufferEnd);
 
 //buffer size = 1-21 char + accuracy + ('.', exponent) - optional;
 extern inline Size FloatToCString(Float64 value, CString buffer, Size accuracy);
-
+//better no use it
 extern inline Bool equalData(Byte buffer[], Index bufferStart, Byte source[], Index sourceStart, Size bytes);
 
 extern inline CString findCoincidence(CString buffer, Size bufferSize, CString find, Size findSize);
