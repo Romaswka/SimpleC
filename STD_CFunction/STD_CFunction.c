@@ -124,7 +124,7 @@ inline Void swapBytes(Byte buffer[], Index bufferEnd)
 
 inline Size calculateCountDigits(Float64 value)
 {
-	Size digits = 0;
+	Size digits = 1;
 	while (value > 9.0)
 	{
 		value /= 10;
@@ -216,7 +216,7 @@ inline Size FloatToCString(Float64 value, CString buffer, Size accuracy)
 	return resultSize;
 }
 
-inline CString find—oincidence(CString buffer, Size bufferSize, CString find, Size findSize)
+inline CString find√ëoincidence(CString buffer, Size bufferSize, CString find, Size findSize)
 {
 	Index j;
 
